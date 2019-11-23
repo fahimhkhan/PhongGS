@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd Debug &&
+make clean &&
+make &&
+cd .. &&
+./Debug/Animation
